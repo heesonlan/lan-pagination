@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.lan.page.Page;
 import com.lan.service.UserService;
-
+/**
+ * 
+ * @author LAN
+ * @date 2017年4月27日
+ */
 @Controller
 @RequestMapping("user")
 public class UserController {

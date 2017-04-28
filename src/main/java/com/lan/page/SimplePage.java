@@ -13,7 +13,7 @@ public class SimplePage implements Serializable{
 	protected static final long serialVersionUID = 5136213157391895517L;
 	
 	protected int page = 1;// 页码，默认是第一页
-	protected int rows = 10;// 每页显示的记录数，默认是15
+	protected int rows = 10;// 每页显示的记录数，默认是10
 	protected int totalRecord;// 总记录数
 	protected List data;// 对应的当前页记录
 	
